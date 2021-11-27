@@ -52,7 +52,7 @@ public class OdejmowanieUlamkow {
         this.wynikLicznik = this.licznik1 * this.mianownik2 - this.licznik2 * this.mianownik1;
         this.wynikMianownik = this.mianownik1 * this.mianownik2;
         //int nwd = obliczNWD(mianownik1, mianownik2);
-        nt nwd = obliczNWD(wynikLicznik, wynikMianownik);
+        int nwd = obliczNWD(wynikLicznik, wynikMianownik);
         this.wynikLicznik = this.wynikLicznik  / nwd;
         this.wynikMianownik = this.wynikMianownik  / nwd;
     }
